@@ -3,10 +3,10 @@
 <string name="title_activity_car_details">Car Details</string>
 <string name="title_activity_car_edit">Edit Car Details</string>
 <string name="action_settings">Settings</string>
+<string name="lblCaptionMakeStr">Make:</string>
 <string name="lblCaptionYearStr">Year:</string>
 <string name="lblCaptionModelStr">Model:</string>
 <string name="lblCaptionOriginStr">Origin:</string>
-    <string name="lblCaptionMakeStr">Make:</string>
 <string name="spnOriginStr">Edit</string>
 <string name="spnOriginAmericanStr">American</string>
 <string name="spnOriginJapaneseStr">Japanese</string>

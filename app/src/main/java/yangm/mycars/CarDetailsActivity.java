@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class CarDetailsActivity extends AppCompatActivity {
 
@@ -25,8 +26,8 @@ public class CarDetailsActivity extends AppCompatActivity {
     }
 
     public void populator(Car car){
-        EditText txtMake = (EditText)findViewById(R.id.txtMake);
-        txtMake.setText(car.getMake());
+        TextView lblDataMake = (TextView)findViewById(R.id.lblDataMake);
+        lblDataMake.setText(car.getMake());
         EditText txtYear = (EditText)findViewById(R.id.txtYear);
         txtYear.setText(String.valueOf(car.getYear()));
         EditText txtModel = (EditText)findViewById(R.id.txtModel);

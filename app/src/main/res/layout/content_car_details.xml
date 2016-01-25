@@ -102,6 +102,27 @@
                 android:id="@+id/lblDataOrigin" />
         </LinearLayout>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEdit"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/btnEditStr" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnModsStr"
+            android:id="@+id/btnMods"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnWishlistStr"
+            android:id="@+id/btnWishlist"
+            android:layout_gravity="center_horizontal" />
+
     </LinearLayout>
 
 </RelativeLayout>
